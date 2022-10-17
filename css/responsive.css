@@ -1,0 +1,37 @@
+@media (min-width: 300px) and (max-width: 680px){
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, #E65763, #34073D );;
+    background-position: cover;
+    color: #FFF;
+    text-align: center;
+    padding-top: 20px;
+}
+#tasks-container{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    #add-task-form input {
+        box-sizing: border-box;
+        border: 1px solid #34073D;
+        background-color: #fff;
+        color: #34073D;
+        padding: 15px;
+        font-size: 18px;
+        width: 100%;
+    }
+    #add-btn{
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #34073D;
+        cursor: pointer;
+        transition: 1s;
+        width: 50px;
+        height: 53px;
+        top: 0;
+        right: 0;
+    }
+}
